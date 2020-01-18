@@ -7,7 +7,7 @@ describe('HelloWorld.vue', () => {
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
 
-  it('renders props.msg when passed', () => {
+  it('renders props title when passed to component', () => {
     const msg = 'new message';
     const wrapper = shallowMount(HelloWorld, {
       propsData: { msg },
