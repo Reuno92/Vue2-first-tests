@@ -7,8 +7,8 @@ describe('Unit test for FancyHeading component', () => {
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
 
-  test('title should be Hello World', () => {
-    const received = 'Hello World';
+  test('title should be Hello world', () => {
+    const received = 'Hello world';
     const expected = 'Hello world';
     const wrapper = mount(FancyHeading, {
       propsData: {
