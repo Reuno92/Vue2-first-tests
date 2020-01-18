@@ -6,4 +6,10 @@ describe('Me view', () => {
     const me = mount(Me);
     expect(me.isVueInstance()).toBeTruthy();
   });
+
+  it('should be a title with Me, my and I', () => {
+    const title = 'Me, my and I';
+    const me = mount(Me);
+    expect(me.find('h1').text()).toBe(title);
+  });
 });
