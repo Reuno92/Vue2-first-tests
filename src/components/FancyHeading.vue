@@ -11,7 +11,7 @@ export default class FancyHeading extends Vue {
 
     constructor() {
       super();
-      this.title = 'Hello World';
+      this.title = 'Hello world';
     }
 }
 </script>
