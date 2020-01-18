@@ -1,5 +1,5 @@
 <template>
-  <h1>{{ title }}</h1>
+  <h1 class="heading">{{ title }}</h1>
 </template>
 
 <script lang="ts">
@@ -17,5 +17,9 @@ export default class FancyHeading extends Vue {
 </script>
 
 <style lang="scss" scoped>
-
+  .heading {
+    font-size: 34px;
+    text-align: center;
+    color: #2c3e50;
+  }
 </style>
