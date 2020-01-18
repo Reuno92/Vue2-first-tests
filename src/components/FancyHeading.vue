@@ -3,16 +3,11 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
+import { Component, Prop, Vue } from 'vue-property-decorator';
 
   @Component
 export default class FancyHeading extends Vue {
-    title: string;
-
-    constructor() {
-      super();
-      this.title = 'Hello world';
-    }
+    @Prop() title: string;
 }
 </script>
 
