@@ -8,7 +8,7 @@ describe('Me view', () => {
   });
 
   it('should be a title with Me, my and I', () => {
-    const title = 'Me, my and I';
+    const title = 'Me, My and I';
     const me = mount(Me);
     expect(me.find('h1').text()).toBe(title);
   });
